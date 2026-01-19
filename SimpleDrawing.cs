@@ -39,6 +39,7 @@ namespace CGP
             g.DrawRectangle(blackPen, 400, 300, 50, 50);
             // Draw the circle inside the square
             g.DrawEllipse(blackPen, 400, 300, 50, 50);
+            // That should do it
             // Define a colour for filling the polygon
             Color myColour = Color.FromArgb(0, 255, 0);
             SolidBrush brush = new SolidBrush(myColour);
